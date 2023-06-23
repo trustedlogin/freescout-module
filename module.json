@@ -1,0 +1,23 @@
+{
+    "name": "TrustedLogin",
+    "alias": "trustedlogin",
+    "description": "TrustedLogin integration for Freescout.",
+    "version": "1.0.0",
+    "detailsUrl": "https://github.com/trustedlogin/freescout-module",
+    "author": "TrustedLogin",
+    "authorUrl": "https://github.com/trustedlogin",
+    "requiredAppVersion": "1.0.3",
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "img": "/modules/trustedlogin/img/freehelp-640x640-1.png",
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\TrustedLogin\\Providers\\TrustedLoginServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,24 @@
+{
+    "name": "freescout/trustedlogin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Marc Gratch"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\TrustedLogin\\Providers\\TrustedLoginServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TrustedLogin\\": ""
+        }
+    }
+}

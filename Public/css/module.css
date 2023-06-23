@@ -1,0 +1,116 @@
+#swh-content {
+    padding: 15px 20px 15px 12px;
+}
+
+h2.c-sb-heading {
+    box-sizing: border-box;
+    color: #314351;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1.22em;
+    margin: 0 0 20px;
+    position: relative;
+    text-rendering: optimizelegibility;
+}
+
+ul.c-sb-list.c-sb-list--two-line {
+    color: #405261;
+    display: block;
+    font-size: 13px;
+    list-style: none;
+    margin: 0 0 10px;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+li.c-sb-list-item {
+    align-items: normal;
+    color: #405261;
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    justify-content: flex-start;
+    line-height: 18px;
+    margin: 0 0 10px;
+    word-wrap: break-word;
+}
+
+
+span.c-sb-list-item__text {
+    display: block;
+    margin: 10px 0 0;
+    width: 100%;
+}
+
+span.c-sb-list-item__text::before {
+    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIGZpbGw9J25vbmUnIHZpZXdCb3g9JzAgMCAyNCAyNCcgc3Ryb2tlLXdpZHRoPScxLjUnIHN0cm9rZT0nY3VycmVudENvbG9yJyBjbGFzcz0ndy02IGgtNic+PHBhdGggc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJyBkPSdNOC4yNSA0LjVsNy41IDcuNS03LjUgNy41JyAvPjwvc3ZnPgo=");
+    display: inline-block;
+    filter: invert(48%) sepia(79%) saturate(100) hue-rotate(192deg) brightness(109%) contrast(119%);
+    height: 18px;
+    vertical-align: -23%;
+    width: 18px;
+}
+
+ul.c-sb-list.c-sb-list--two-line + a {
+    color: #07c;
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 0 10px;
+    word-wrap: break-word;
+}
+
+i.icon-gear::before {
+    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIGZpbGw9J25vbmUnIHZpZXdCb3g9JzAgMCAyNCAyNCcgc3Ryb2tlLXdpZHRoPScxLjUnIHN0cm9rZT0nY3VycmVudENvbG9yJz48cGF0aCBzdHJva2VMaW5lY2FwPSdyb3VuZCcgc3Ryb2tlTGluZWpvaW49J3JvdW5kJyBkPSdNOS41OTQgMy45NGMuMDktLjU0Mi41Ni0uOTQgMS4xMS0uOTRoMi41OTNjLjU1IDAgMS4wMi4zOTggMS4xMS45NGwuMjEzIDEuMjgxYy4wNjMuMzc0LjMxMy42ODYuNjQ1Ljg3LjA3NC4wNC4xNDcuMDgzLjIyLjEyNy4zMjQuMTk2LjcyLjI1NyAxLjA3NS4xMjRsMS4yMTctLjQ1NmExLjEyNSAxLjEyNSAwIDAxMS4zNy40OWwxLjI5NiAyLjI0N2ExLjEyNSAxLjEyNSAwIDAxLS4yNiAxLjQzMWwtMS4wMDMuODI3Yy0uMjkzLjI0LS40MzguNjEzLS40MzEuOTkyYTYuNzU5IDYuNzU5IDAgMDEwIC4yNTVjLS4wMDcuMzc4LjEzOC43NS40My45OWwxLjAwNS44MjhjLjQyNC4zNS41MzQuOTU0LjI2IDEuNDNsLTEuMjk4IDIuMjQ3YTEuMTI1IDEuMTI1IDAgMDEtMS4zNjkuNDkxbC0xLjIxNy0uNDU2Yy0uMzU1LS4xMzMtLjc1LS4wNzItMS4wNzYuMTI0YTYuNTcgNi41NyAwIDAxLS4yMi4xMjhjLS4zMzEuMTgzLS41ODEuNDk1LS42NDQuODY5bC0uMjEzIDEuMjhjLS4wOS41NDMtLjU2Ljk0MS0xLjExLjk0MWgtMi41OTRjLS41NSAwLTEuMDItLjM5OC0xLjExLS45NGwtLjIxMy0xLjI4MWMtLjA2Mi0uMzc0LS4zMTItLjY4Ni0uNjQ0LS44N2E2LjUyIDYuNTIgMCAwMS0uMjItLjEyN2MtLjMyNS0uMTk2LS43Mi0uMjU3LTEuMDc2LS4xMjRsLTEuMjE3LjQ1NmExLjEyNSAxLjEyNSAwIDAxLTEuMzY5LS40OWwtMS4yOTctMi4yNDdhMS4xMjUgMS4xMjUgMCAwMS4yNi0xLjQzMWwxLjAwNC0uODI3Yy4yOTItLjI0LjQzNy0uNjEzLjQzLS45OTJhNi45MzIgNi45MzIgMCAwMTAtLjI1NWMuMDA3LS4zNzgtLjEzOC0uNzUtLjQzLS45OWwtMS4wMDQtLjgyOGExLjEyNSAxLjEyNSAwIDAxLS4yNi0xLjQzbDEuMjk3LTIuMjQ3YTEuMTI1IDEuMTI1IDAgMDExLjM3LS40OTFsMS4yMTYuNDU2Yy4zNTYuMTMzLjc1MS4wNzIgMS4wNzYtLjEyNC4wNzItLjA0NC4xNDYtLjA4Ny4yMi0uMTI4LjMzMi0uMTgzLjU4Mi0uNDk1LjY0NC0uODY5bC4yMTQtMS4yODF6JyAvPjxwYXRoIHN0cm9rZUxpbmVjYXA9J3JvdW5kJyBzdHJva2VMaW5lam9pbj0ncm91bmQnIGQ9J00xNSAxMmEzIDMgMCAxMS02IDAgMyAzIDAgMDE2IDB6JyAvPjwvc3ZnPg==");
+    display: inline-block;
+    filter: invert(48%) sepia(79%) saturate(100) hue-rotate(192deg) brightness(109%) contrast(119%);
+    height: 18px;
+    vertical-align: -23%;
+    width: 18px;
+}
+
+.debugger-link {
+    display: block;
+    margin: 0 0 15px;
+    text-decoration: underline;
+}
+
+#tl-debugModal.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#tl-debugModal.modal:target {
+    display: block;
+}
+
+#tl-debugModal.modal .alert {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+#tl-debugModal.modal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#tl-debugModal.modal .close:hover,
+#tl-debugModal.modal .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
