@@ -9,7 +9,7 @@
     "requiredAppVersion": "1.0.3",
     "license": "AGPL-3.0",
     "keywords": [],
-    "img": "/modules/trustedlogin/img/freehelp-640x640-1.png",
+    "img": "/modules/trustedlogin/img/TrustedLogin-icon.png",
     "active": 0,
     "order": 0,
     "providers": [
